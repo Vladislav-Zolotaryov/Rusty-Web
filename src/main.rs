@@ -1,5 +1,5 @@
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
-use sqlx::{postgres::{PgPoolOptions, PgPool}, Row};
+use sqlx::{postgres::{PgPoolOptions, PgPool}};
 use log::error;
 use env_logger;
 
